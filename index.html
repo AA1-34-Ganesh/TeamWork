@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+   <style>
+    .container{
+      display: flex;
+      background-color:lightblue; 
+      flex-flow: row wrap;
+      
+      align-items: flex-start;
+
+
+    }
+    .container>div{
+      background-color: white;
+      width: 100px;
+      margin:10px;
+      text-align: center;
+      line-height: 75px;
+      font-size:30px;
+    }
+    .sub-heading{
+      color:red;
+      font-size: 16px;
+    }
+    .sub-heading:hover{
+         color:aquamarine;
+         font-size:30px;
+         cursor: pointer;
+    }
+    .list:first-child{
+      color:greenyellow;
+   }
+   </style>
+
+</head>
+<body>
+    <div class="container">
+     <div style="order: 2;">1</div>
+     <div>2</div>
+     <div>3</div>
+     <div>4</div>
+    </div>
+
+    <h1 class="title">Hello World!</h1>
+    <h1 class="sub-heading">Hello ganesh from chennai.</h1>
+    <input type="text" placeholder="Enter your name">
+    <ul class="list">
+      <li>item-1</li>
+       <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+         <li>item-5</li>
+          <li>item-6</li>
+           <li>item-7</li> 
+    </ul>
+</body>
+</html>
